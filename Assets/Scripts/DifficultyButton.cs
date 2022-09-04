@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class DifficultyButton : MonoBehaviour
-{
+{ 
     private Button button;
     private GameManager gameManager;
     public int difficulty;
+    public string beans = "Sophie";
     // Start is called before the first frame update
     void Start()
     {
